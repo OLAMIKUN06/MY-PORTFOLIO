@@ -1,16 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>My Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Disu Kehinde Martha | A Data Scientist based in Lagos, Nigeria.
+  </title>
+
+  <meta name="description" content="Hi, I'm Kehinde a Data Science enthusiast currently enroll in AltSchool Africa for a Diploma Degree to futher my understanding and career path as a Data Scientist.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Disu Kehinde Martha, Python ( Pandas, NumPy, Matplotlib), Data Analysis, IBM SPSS, Statistical Analysis, Data Visualization, Canva, Microsoft Office." />
+  <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi! My name is Disu Kehinde Martha. I am a Lab Technician, Biochemist, Data Analyst, Data Scientist.</p>
-    <h2>Projects</h2>
-    <ul>
-        <li>Project 1: <a href="https://github.com/OLAMIKUN06/MY-PORTFOLIO">View Here</a></li>
-    </ul>
-    <h2>Contact</h2>
-    <p>Email me at: martha.k.disu@gmail.com</p>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Disu Kehinde Martha</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>As a data scientist with a background in Biochemistry, I have experience working in healthcare and education, including data wrangling, analysis, and visualization. I am currently working on projects focused on the United Nations' SDGs, aiming to deliver data-driven insights that address real-world challenges.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">   
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              I’m a data scientist with a background in Biochemistry, passionate about solving real-world problems through data.
+              With experience in healthcare and education, I specialize in data wrangling, analysis, and visualization. Currently, 
+              I’m working on projects that align with the United Nations' Sustainable Development Goals (SDGs), focused on delivering actionable insights that can drive positive change.
+              My goal is to make meaningful contributions by using data science to address global challenges.
+
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="https://drive.google.com/file/d/1qMLqxj4RfoZnqJR-6S12_hm98xam-vDf/view?usp=drivesdk">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+         I’m always open to new opportunities and collaborations in the data science field.
+         If you're looking for a passionate and skilled data scientist to bring data-driven insights to your projects,
+         I’d love to hear from you. Feel free to reach out to discuss how we can work together to solve complex problems and drive impactful change.
+         I will do my best to respond back. 😊 The quickest way to reach out to
+         me is via an email.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="martha.k.disu@gmail.com" class="btn">you@example.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/OLAMIKUN06/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/disu-kehinde-martha6">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
 </body>
+
 </html>
